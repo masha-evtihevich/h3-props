@@ -1,9 +1,8 @@
-const Square = ({ className, label, width, height, colorSquare }) => {
+const Square = ({ className, label }) => {
     return (
         <div>
             <p
                 className={className}
-                style={{ width: width, height: height, background: colorSquare }}
             >
                 {label}
             </p>

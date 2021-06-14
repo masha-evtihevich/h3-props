@@ -13,11 +13,10 @@ ReactDOM.render(
       <Text text='Underlined text' fontSize={40} colorText='yellow' underline={false} />
     </div>
     <div className='square__container'>
-      <Square className='square-big' label='Big square' width={200} height={200} colorSquare='red' />
-      <Square className='square-less' label='A less square' width={150} height={150} colorSquare='gray' />
-      <Square className='square-small' label='The smallest one' width={100} height={100} colorSquare='green' />
+      <Square className='square-big' label='Big square' />
+      <Square className='square-less' label='A less square' />
+      <Square className='square-small' label='The smallest one' />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
-

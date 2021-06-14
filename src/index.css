@@ -15,3 +15,18 @@ code {
 p {
   margin: 20px auto;
 }
+.square-big {
+  padding: 5rem;
+  width: 5rem;
+  background: #5f9ea0;
+}
+.square-less {
+  padding: 4rem;
+  width: 5rem;
+  background: darkseagreen;
+}
+.square-small {
+  padding: 3rem;
+  width: 5rem;
+  background: lightgreen;
+}
